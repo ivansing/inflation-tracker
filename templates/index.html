@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Inflation Over Time</title>
+</head>
+
+<body>
+    <h1>U.S. Inflation Calculator</h1>
+    <h2>Instructions:</h2>
+    <p>Input the begining year from 1947 and ahead. For example, 1947 to 2024, or 2000 to 2024,</p>
+    <p>The output will be the calculation relative to the end year to substract start year.</p>
+    <p>2008 to 2012, you can place whatever year from 1947 to 2024 boundaries:</p>
+   
+    <form method="POST" action="/">
+        <label for="start_year">Start Year:</label>
+        <input type="number" id="start_year" name="start_year" required>
+
+        <label for="start_year">End Year:</label>
+        <input type="number" id="end_year" name="end_year" required>
+
+        <input type="submit" value="Show Inflation Data">
+    </form>
+
+    {% if plot_url %}
+    <h2>Inflation Plot</h2>
+    <img src="{{ plot_url }}" alt="Inflation Plot">
+    {% endif %}
+</body>
+</html>
