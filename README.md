@@ -1,4 +1,4 @@
-# U.S. Inflatin Tracker
+# U.S. Inflation Tracker
 
 ## Overview
 
@@ -7,10 +7,10 @@ This project is a web application that visualizes U.S. inflation data from the F
 ## Features
 
 - Fetches U.S. inflation data from FRED API.
-- Allows users to select a custon date range to visualize inflation.
+- Allows users to select a custom date range to visualize inflation.
 - Plots the normalized inflation data (relative to the selected time period).
-- Interactive and dynamic visulas generated with Matplotlib.
-- Envirmennt variables for API key management.
+- Interactive and dynamic visuals generated with Matplotlib.
+- Environment variables for API key management.
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@ This project is a web application that visualizes U.S. inflation data from the F
    git clone https://github.com/ivansing/inflation-tracker.git
    cd inflation-tracker
    ```
-2. Create a virtual enviroment
+2. Create a virtual environment
 
    ```bash
    python3 -m venv venv
@@ -54,7 +54,7 @@ To access U.S. inflation data, you need a FRED API key. Follow the steps to get 
     1. Go to [FRED website](https://fred.stlouisfed.org/)
     2. Create a free account or sign in if you already have one.
     3. Navigate to My Account > API Keys.
-    4. Click on Reuqests API Key and follow the instruction to generate your key.
+    4. Click on Reuqests API Key and follow the instructions to generate your key.
     5. Once you have the API key, copy it into the `.env` file as shown below.
 
 ## Running the Application
@@ -71,7 +71,7 @@ To access U.S. inflation data, you need a FRED API key. Follow the steps to get 
     python3 app.py
     ```
 3. Visit the app in your browser at `http://127.0.0.1:5000`.
-4. Enter the desired start and end years in integers values on the UI to see inflation trends.
+4. Enter the desired start and end years in integer values on the UI to see inflation trends.
 
 ## Testing
 
