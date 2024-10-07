@@ -77,22 +77,12 @@ To access U.S. inflation data, you need a FRED API key. Follow the steps to get 
 
 You can test the application by running it locally and entering a custom date range (for example, 1990 to 2024) in the web interface to see how the inflation data is plotted.
 
-## Example Commands
+## Example Commandssssss
 
-    ```bash
-    python3 app.py
-    ```
-Then navigate to `http://127.0.0.1:5000` and enter your date range in the UI.
-
+    
 ## Screenshots
 
-### Home Page
-
-
-
-### Date Range Selection
-
-
+[Inflation Image US range](static/inflation_plot.png)
 
 ## License
 
